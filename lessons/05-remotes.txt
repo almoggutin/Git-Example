@@ -1,0 +1,15 @@
+Show Remotes List - 
+git remote
+
+Add Remote Repository - 
+git remote add <remote name> <url>
+
+Push To Remote - 
+git push <remote name> <branch name>
+git push
+
+Rename A Remote - 
+git remote rename <old name> <new name>
+
+Delete A Remote - 
+git remote remove <remote name>

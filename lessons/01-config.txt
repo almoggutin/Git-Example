@@ -1,0 +1,18 @@
+Show The List Of The Git Config File - 
+git config --list
+
+Configuring Credentials To The Global Git Config - 
+git config --global user.name "Your Name"
+git config --global user.email "email@example.com"
+
+Configuring The Default Root Branch Name To The Global Git Config - 
+git config --global inti.defaultBranch main
+
+Showing The Value Of A Configuration Inside The Git Config -
+git config <key>
+git config user.name
+
+Showing Manual Pages For Git Commands - 
+git help <verb>
+git <verb> --help
+man git-<verb>

@@ -1,0 +1,11 @@
+Commit Track Files - Create A Snapshot Of The Changes - 
+git commit -m "Message"
+
+Show Commit History -
+git log
+git log <branch name>
+git log --all
+
+Move between commits -
+git reset <commit ID>
+git reset HEAD~<number of commits backwards>

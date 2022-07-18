@@ -1,0 +1,9 @@
+Show Status Of Files In The Repositroy - 
+git status
+
+Remove File After Staging (Before Commiting) - 
+git reset <File Path>
+git reset HEAD -- <File Path>
+
+Remove File After Commiting (After Being Tracked) - 
+git rm --cached <File Path>

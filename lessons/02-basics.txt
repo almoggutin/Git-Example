@@ -1,0 +1,22 @@
+Initialize Git Directory - 
+git init
+
+Track Files & Changes To The Git Directory - 
+git add . 
+git add "File Location"
+git add *.js/ts/html 
+
+Commit Track Files - Create A Snapshot Of The Changes - 
+git commit -m "Message"
+
+Rename The Current Branch - 
+git branch -M <new branch name>
+git branch -M main
+
+Add Remote Repositroy - 
+git remote add <remote name> <url>
+git remote add origin <url>
+
+Push A Branch And It's Commits To A Remote Repository - 
+git push -u <remote name> <branch name>
+git push -u origin main
